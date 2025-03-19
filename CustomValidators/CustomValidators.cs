@@ -9,4 +9,10 @@ public static class CustomValidators
     {
         return ruleBuilder.Must(item => item.Active).WithMessage("item was not active");
     }
+
+    // public static StartsWithA<T>(
+    // this IRuleBuilder<T, string?> ruleBuilder)
+    // {
+    //     return ruleBuilder.Must(item => item.StartsWith("a")).WithMessage("item was not active");
+    // }
 }
